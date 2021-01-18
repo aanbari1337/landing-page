@@ -1,0 +1,14 @@
+.title-menu{
+    font-size: 40px;
+	margin: 40px 0;
+	font-family: 'Pacifico', cursive;
+}
+
+.head-border:after{
+    content: '';
+    display: block;
+    width: 200px;
+    height: 2px;
+    margin: 12px auto;
+    background-color: #A7AF00;
+}

@@ -1,0 +1,30 @@
+
+.navbar
+{
+   margin: 10px auto;
+}
+
+.navbar-brand{
+    width: 160px;
+    height: 74px;
+ }
+
+ .logo-phone{
+    width: 120px !important;
+    height: 55px !important;
+ }
+
+ .nav-item{
+     
+     padding: 10px;
+ }
+ .nav-link{
+     text-transform: uppercase;
+     display: inline-block;
+     cursor: pointer;
+ }
+
+ .nav-link:hover{
+     color:  #CC280D !important;
+     border-bottom: 1px solid #A7AF00 !important;
+ }

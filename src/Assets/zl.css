@@ -1,0 +1,271 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0 auto; 
+	max-width: 2000px;
+
+}
+
+.section-title {
+	font-size: 40px;
+	margin: 40px 0;
+	font-family: 'Pacifico', cursive;
+}
+
+.section-title:after{
+	content: '';
+    display: block;
+    width: 200px;
+    height: 2px;
+    margin: 12px auto;
+    background-color: #A7AF00;
+}
+
+.about-layout {
+	padding: 0 30px;
+	margin: 40px 0;
+}
+
+.about-layout .image-holder {
+	width: 100%;
+	margin: auto;
+}
+
+.about-layout .image-holder .img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.about-layout .info {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.about-layout .info .title {
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	position: relative;
+	margin: 15px auto;
+}
+
+.about-layout .info .text {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.about-layout .info .logo {
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.about-layout .info .logo img {
+	width: 30%;
+}
+
+.about-layout .info .text p {
+	margin-bottom: 5px;
+}
+/************/
+.livraison{
+	height: 400px;
+	color: #fff;
+	position: relative;
+}
+
+.livraison:after{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: .5;
+	z-index: 0;
+}
+
+.livraison > *{
+	position: relative;
+	z-index: 10;
+}
+.livraison h1{
+	font-family: 'Pacifico', cursive;
+	font-size: 40px;
+	display: inline-block;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.livraison .livr-icone i{
+	font-size: 70px;
+	margin-bottom: 10px;
+} 
+
+.livraison .txt {
+	font-size: 25px;
+	font-weight: 700;
+	width: 150px;
+	margin: auto;
+}
+
+.livraison .item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+/************/
+
+.contact-layout {
+	margin: 20px 0;
+}
+
+.contact-layout .layout-title {
+	font-weight: 700;
+	font-size: 22px;
+	margin-bottom: 15px;
+}
+
+.contact-layout .map-holder {
+	width: 100%;
+	height: 300px;
+	border-radius: 5px;
+	overflow: hidden;
+	border: 2px solid #A7AF00;
+}
+
+.contact-layout .info {
+	margin-bottom: 15px;
+}
+
+.contact-layout .info .item {
+	border: 0;
+	padding-left: 0;
+}
+
+.contact-layout .info .item .prefix{
+	margin-right: 10px;
+	font-weight: 700;
+}
+
+.contact-layout .info .item .icon {
+	width: 1.4rem !important;
+	height: 1.4rem !important;
+}
+
+.contact-layout .contact-socials {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
+}
+
+.contact-layout .contact-socials .item {
+	margin-right: 15px;
+	cursor: pointer;
+	text-decoration: none;
+	color: inherit;
+}
+
+.footer-layout {
+	margin-top: 40px;
+	width: 100%;
+	background-color: #efefef;
+	padding: 40px;
+}
+
+.footer-layout .logo {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.footer-layout .logo img {
+	width: 50%;
+	margin: auto;
+}
+
+.footer-layout .socials {
+	display: flex;
+}
+
+.footer-layout .items {
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+}
+
+.footer-layout .items .item {
+	color: #222;
+	margin-right: 25px;
+	cursor: pointer;
+}
+
+.footer-layout .items .item .icon {
+	width: 2rem !important;
+	height: 2rem !important;
+}
+
+.footer-layout .info {
+	color: #222;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin-bottom: 20px;
+}
+
+.footer-layout .info .item .prefix {
+	margin-right: 15px;
+	font-weight: 700;
+}
+
+ .whatsapp-btn {
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-color: #25D366;
+	display: flex;
+	cursor: pointer;
+	border: 3px solid #fff;
+	box-shadow: 0px 0px 10px -4px #000;
+}
+
+.whatsapp-btn .icon {
+	color: #fff;
+	margin: auto;
+}
+
+@media (max-width: 768px){
+	.about-layout {
+		padding: 0;
+	}
+
+	.about-layout .info .title {
+		margin: 0 auto;
+	}
+
+	.about-layout .info .logo img {
+		text-align: center;
+		width: 50%;
+	}
+
+	.livraison {
+		height: auto;
+		padding-bottom: 30px;
+	}
+
+	.livraison .livr-icone i{
+		font-size: 60px;
+	}
+
+	.livraison .txt {
+		width: 200px;
+	}
+	
+}
+
+
